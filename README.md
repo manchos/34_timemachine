@@ -26,7 +26,7 @@ The code is written for educational purposes. Training course for web-developers
 
 Ты замечал как быстро пролетает время при чтении статей на Habrahabr и Geektimes? Что-то здесь творится неладное, видно кто-то построил машину времени и запускает её прямо в браузере :(
 
-Исправим это. Есть полезное расширение для Google Chrome, оно умеет встраивать JavaScript на страницы разных сайтов. Вот ссылка на Custom JavaScript for websites. Для Firefox можно найти аналог.
+Исправим это. Есть полезное расширение для Google Chrome, оно умеет встраивать JavaScript на страницы разных сайтов. Вот ссылка на [Custom JavaScript for websites](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija). Для Firefox можно найти аналог.
 
 Это расширение очень кстати. С его помощью будем отслеживать ход времени на страницах Geektimes. Разместим таймер в шапке сайта. Кое-что уже готово, и заготовка кода лежит в репозитории.
 
@@ -41,20 +41,20 @@ The code is written for educational purposes. Training course for web-developers
    - При прокручивании страницы вниз таймер не должен исчезать из поля зрения.
    - Не портить внешний вид сайта, таймер должен выглядеть пристойно.
    - Уведомления должны быть мотивирующими, чтобы хотелось продолжить работу. Впадать в уныние и прокрастинацию - это не решение проблемы. Подбери что-то вдохновляющее.
-   - Только Vanilla JS, больше никаких зависимостей.
+   - Только [Vanilla JS](http://vanilla-js.com/), больше никаких зависимостей.
 
 Рекомендации:
 
    - Используй inline styles.
-   - Почитай про свойства position, top, left, width, height, padding, margin, background-color, color, border, font-size и line-height, z-index. Например, в справочнике Mozilla Developer Network.
+   - Почитай про свойства position, top, left, width, height, padding, margin, background-color, color, border, font-size и line-height, z-index. Например, в справочнике [Mozilla Developer Network.](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
    - Блокирующий window.alert для уведомлений будет очень к месту.
-   - Для хостинга использовать GitHub в связке с RawGit.
+   - Для хостинга использовать GitHub в связке с [RawGit](https://rawgit.com/).
 
 Много времени можно сберечь воспользовавшись Chrome DevTools, вкладкой Elements:
 
 Полезными могут оказаться:
 
-   - HTML и CSS - обзорная статья.
-   - How to get Chrome to allow mixed content.
-   - Известная ошибка CJS injection of js file not works if URL follows after comments.
+   - [HTML и CSS](https://devman.org/encyclopedia/frontend/frontend_html/) - обзорная статья.
+   - [How to get Chrome to allow mixed content.](https://stackoverflow.com/questions/18321032/how-to-get-chrome-to-allow-mixed-content)
+   - [Известная ошибка CJS injection of js file not works if URL follows after comments.](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija/support)
 
